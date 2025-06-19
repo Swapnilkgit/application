@@ -1,0 +1,3 @@
+#!/bin/bash
+# find /home/swapnil/ -type f -mtime +90 -exec mv {} {}.old \;
+find /home/swapnil/ -type f -mtime +90 -exec rm {} \;

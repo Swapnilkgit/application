@@ -1,0 +1,53 @@
+Apr 12 16:43:01 localhost systemd[1]: sys-module-fuse.device: Failed to enqueue SYSTEMD_WANTS= job, ignoring: Unit sys-fs-fuse-connections.mount not found.
+Apr 12 16:43:02 localhost kernel: [drm:vmw_host_printf [vmwgfx]] *ERROR* Failed to send host log message.
+Apr 12 16:43:07 localhost systemd[1]: mcelog.service: Failed with result 'exit-code'.
+Apr 12 16:43:54 localhost NetworkManager[760]: <info>  [1744456434.9561] device (enp0s3): state change: ip-config -> failed (reason 'ip-config-unavailable', sys-iface-state: 'managed')
+Apr 12 16:43:54 localhost NetworkManager[760]: <warn>  [1744456434.9571] device (enp0s3): Activation: failed for connection 'enp0s3'
+Apr 12 16:43:54 localhost NetworkManager[760]: <info>  [1744456434.9576] device (enp0s3): state change: failed -> disconnected (reason 'none', sys-iface-state: 'managed')
+Apr 12 16:44:08 localhost systemd[1]: NetworkManager-wait-online.service: Failed with result 'exit-code'.
+Apr 12 16:44:08 localhost systemd[1]: Failed to start Network Manager Wait Online.
+Apr 12 16:44:39 localhost NetworkManager[760]: <info>  [1744456479.9726] device (enp0s3): state change: ip-config -> failed (reason 'ip-config-unavailable', sys-iface-state: 'managed')
+Apr 12 16:44:39 localhost NetworkManager[760]: <warn>  [1744456479.9738] device (enp0s3): Activation: failed for connection 'enp0s3'
+Apr 12 16:44:39 localhost NetworkManager[760]: <info>  [1744456479.9744] device (enp0s3): state change: failed -> disconnected (reason 'none', sys-iface-state: 'managed')
+Apr 12 16:45:24 localhost NetworkManager[760]: <info>  [1744456524.9489] device (enp0s3): state change: ip-config -> failed (reason 'ip-config-unavailable', sys-iface-state: 'managed')
+Apr 12 16:45:24 localhost NetworkManager[760]: <warn>  [1744456524.9503] device (enp0s3): Activation: failed for connection 'enp0s3'
+Apr 12 16:45:24 localhost NetworkManager[760]: <info>  [1744456524.9506] device (enp0s3): state change: failed -> disconnected (reason 'none', sys-iface-state: 'managed')
+Apr 12 16:46:09 localhost NetworkManager[760]: <info>  [1744456569.9586] device (enp0s3): state change: ip-config -> failed (reason 'ip-config-unavailable', sys-iface-state: 'managed')
+Apr 12 16:46:09 localhost NetworkManager[760]: <warn>  [1744456569.9598] device (enp0s3): Activation: failed for connection 'enp0s3'
+Apr 12 16:46:09 localhost NetworkManager[760]: <info>  [1744456569.9601] device (enp0s3): state change: failed -> disconnected (reason 'none', sys-iface-state: 'managed')
+Apr 12 16:51:54 localhost NetworkManager[760]: <info>  [1744456914.9577] device (enp0s3): state change: ip-config -> failed (reason 'ip-config-unavailable', sys-iface-state: 'managed')
+Apr 12 16:51:54 localhost NetworkManager[760]: <warn>  [1744456914.9590] device (enp0s3): Activation: failed for connection 'enp0s3'
+Apr 12 16:51:54 localhost NetworkManager[760]: <info>  [1744456914.9594] device (enp0s3): state change: failed -> disconnected (reason 'none', sys-iface-state: 'managed')
+Apr 12 16:52:39 localhost NetworkManager[760]: <info>  [1744456959.9576] device (enp0s3): state change: ip-config -> failed (reason 'ip-config-unavailable', sys-iface-state: 'managed')
+Apr 12 16:52:39 localhost NetworkManager[760]: <warn>  [1744456959.9582] device (enp0s3): Activation: failed for connection 'enp0s3'
+Apr 12 16:52:39 localhost NetworkManager[760]: <info>  [1744456959.9584] device (enp0s3): state change: failed -> disconnected (reason 'none', sys-iface-state: 'managed')
+Apr 12 16:53:24 localhost NetworkManager[760]: <info>  [1744457004.9561] device (enp0s3): state change: ip-config -> failed (reason 'ip-config-unavailable', sys-iface-state: 'managed')
+Apr 12 16:53:24 localhost NetworkManager[760]: <warn>  [1744457004.9574] device (enp0s3): Activation: failed for connection 'enp0s3'
+Apr 12 16:53:24 localhost NetworkManager[760]: <info>  [1744457004.9578] device (enp0s3): state change: failed -> disconnected (reason 'none', sys-iface-state: 'managed')
+Apr 12 16:54:09 localhost NetworkManager[760]: <info>  [1744457049.9573] device (enp0s3): state change: ip-config -> failed (reason 'ip-config-unavailable', sys-iface-state: 'managed')
+Apr 12 16:54:09 localhost NetworkManager[760]: <warn>  [1744457049.9583] device (enp0s3): Activation: failed for connection 'enp0s3'
+Apr 12 16:54:09 localhost NetworkManager[760]: <info>  [1744457049.9591] device (enp0s3): state change: failed -> disconnected (reason 'none', sys-iface-state: 'managed')
+Apr 12 16:59:56 localhost NetworkManager[760]: <info>  [1744457396.9591] device (enp0s3): state change: ip-config -> failed (reason 'ip-config-unavailable', sys-iface-state: 'managed')
+Apr 12 16:59:56 localhost NetworkManager[760]: <warn>  [1744457396.9608] device (enp0s3): Activation: failed for connection 'enp0s3'
+Apr 12 16:59:56 localhost NetworkManager[760]: <info>  [1744457396.9611] device (enp0s3): state change: failed -> disconnected (reason 'none', sys-iface-state: 'managed')
+Apr 12 17:00:41 localhost NetworkManager[760]: <info>  [1744457441.9586] device (enp0s3): state change: ip-config -> failed (reason 'ip-config-unavailable', sys-iface-state: 'managed')
+Apr 12 17:00:41 localhost NetworkManager[760]: <warn>  [1744457441.9597] device (enp0s3): Activation: failed for connection 'enp0s3'
+Apr 12 17:00:41 localhost NetworkManager[760]: <info>  [1744457441.9598] device (enp0s3): state change: failed -> disconnected (reason 'none', sys-iface-state: 'managed')
+Apr 12 17:01:26 localhost NetworkManager[760]: <info>  [1744457486.9476] device (enp0s3): state change: ip-config -> failed (reason 'ip-config-unavailable', sys-iface-state: 'managed')
+Apr 12 17:01:26 localhost NetworkManager[760]: <warn>  [1744457486.9502] device (enp0s3): Activation: failed for connection 'enp0s3'
+Apr 12 17:01:26 localhost NetworkManager[760]: <info>  [1744457486.9507] device (enp0s3): state change: failed -> disconnected (reason 'none', sys-iface-state: 'managed')
+Apr 12 17:02:11 localhost NetworkManager[760]: <info>  [1744457531.9579] device (enp0s3): state change: ip-config -> failed (reason 'ip-config-unavailable', sys-iface-state: 'managed')
+Apr 12 17:02:11 localhost NetworkManager[760]: <warn>  [1744457531.9593] device (enp0s3): Activation: failed for connection 'enp0s3'
+Apr 12 17:02:11 localhost NetworkManager[760]: <info>  [1744457531.9597] device (enp0s3): state change: failed -> disconnected (reason 'none', sys-iface-state: 'managed')
+Apr 12 17:07:56 localhost NetworkManager[760]: <info>  [1744457876.9586] device (enp0s3): state change: ip-config -> failed (reason 'ip-config-unavailable', sys-iface-state: 'managed')
+Apr 12 17:07:56 localhost NetworkManager[760]: <warn>  [1744457876.9599] device (enp0s3): Activation: failed for connection 'enp0s3'
+Apr 12 17:07:56 localhost NetworkManager[760]: <info>  [1744457876.9606] device (enp0s3): state change: failed -> disconnected (reason 'none', sys-iface-state: 'managed')
+Apr 12 17:08:41 localhost NetworkManager[760]: <info>  [1744457921.9572] device (enp0s3): state change: ip-config -> failed (reason 'ip-config-unavailable', sys-iface-state: 'managed')
+Apr 12 17:08:41 localhost NetworkManager[760]: <warn>  [1744457921.9587] device (enp0s3): Activation: failed for connection 'enp0s3'
+Apr 12 17:08:41 localhost NetworkManager[760]: <info>  [1744457921.9588] device (enp0s3): state change: failed -> disconnected (reason 'none', sys-iface-state: 'managed')
+Apr 12 17:09:26 localhost NetworkManager[760]: <info>  [1744457966.9585] device (enp0s3): state change: ip-config -> failed (reason 'ip-config-unavailable', sys-iface-state: 'managed')
+Apr 12 17:09:26 localhost NetworkManager[760]: <warn>  [1744457966.9601] device (enp0s3): Activation: failed for connection 'enp0s3'
+Apr 12 17:09:26 localhost NetworkManager[760]: <info>  [1744457966.9606] device (enp0s3): state change: failed -> disconnected (reason 'none', sys-iface-state: 'managed')
+Apr 12 17:10:11 localhost NetworkManager[760]: <info>  [1744458011.9553] device (enp0s3): state change: ip-config -> failed (reason 'ip-config-unavailable', sys-iface-state: 'managed')
+Apr 12 17:10:11 localhost NetworkManager[760]: <warn>  [1744458011.9561] device (enp0s3): Activation: failed for connection 'enp0s3'
+Apr 12 17:10:11 localhost NetworkManager[760]: <info>  [1744458011.9563] device (enp0s3): state change: failed -> disconnected (reason 'none', sys-iface-state: 'managed')

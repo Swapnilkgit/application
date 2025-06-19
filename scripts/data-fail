@@ -1,0 +1,2 @@
+#!/bin/bash
+grep -i failed /home/swapnil/messages > /home/swapnil/scripts/failed-output

@@ -1,0 +1,8 @@
+#!/bin/bash
+ls /home/swapnil/scripts/data-warn &> /dev/null
+	if [ $? -eq 0 ]
+	then
+		echo file exist
+	else
+		echo file not exist
+	fi

@@ -1,0 +1,6 @@
+#!/bin/bash
+for filename in *.none
+do 
+	mv $filename ${filename%.none}.txt
+	
+done
