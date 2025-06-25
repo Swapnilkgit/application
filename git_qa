@@ -1,0 +1,193 @@
+🔥 Basic Git Concepts
+What is Git?
+Git is a distributed version control system to track changes in source code during software development.
+
+What is the difference between Git and GitHub?
+Git is a VCS tool; GitHub is a web-based hosting service for Git repositories.
+
+What is the difference between Git and SVN?
+Git is distributed; SVN is centralized. Git works offline; SVN requires network access for many tasks.
+
+How do you check the Git version?
+git --version
+
+What is a repository in Git?
+A repository (repo) is a directory that contains your project’s files and the full history of changes.
+
+What is the difference between local and remote repositories?
+Local repo is on your system. Remote repo (e.g., GitHub) is on the server.
+
+How do you initialize a Git repository?
+git init
+
+🚀 Day-to-Day Git Commands
+How do you clone a repository?
+git clone <repo_url>
+
+How do you check the status of a repo?
+git status
+
+How do you add files to staging area?
+git add <filename> or git add .
+
+How do you commit changes?
+git commit -m "Your message"
+
+How do you push changes to remote repo?
+git push origin <branch_name>
+
+How do you pull changes from remote repo?
+git pull origin <branch_name>
+
+How do you view commit history?
+git log
+
+How do you view a single-line summary of commits?
+git log --oneline
+
+🛠️ Branching and Merging
+How do you create a new branch?
+git branch <branch_name>
+
+How do you switch to another branch?
+git checkout <branch_name>
+OR
+git switch <branch_name> (newer Git)
+
+How do you create and switch to a new branch in one command?
+git checkout -b <branch_name>
+
+How do you merge two branches?
+git checkout main
+git merge feature_branch
+
+How do you delete a branch locally?
+git branch -d <branch_name>
+
+What is a fast-forward merge?
+A merge where HEAD just moves forward, with no merge commit.
+
+What is a three-way merge?
+Merge with a common ancestor when branches have diverged.
+
+What is the difference between merge and rebase?
+Merge creates a new commit combining branches; rebase moves or reapplies commits on top of another base.
+
+🧹 Undoing and Fixing Mistakes
+How do you undo last commit but keep changes staged?
+git reset --soft HEAD~1
+
+How do you undo last commit and unstage changes?
+git reset --mixed HEAD~1
+
+How do you discard local changes in a file?
+git checkout -- <filename> (old) or git restore <filename> (new)
+
+How do you remove a file from Git but keep it locally?
+git rm --cached <filename>
+
+How do you revert a commit?
+git revert <commit_hash>
+
+Difference between reset, revert, and checkout?
+
+reset: undo commits or unstage files.
+
+revert: create a new commit to reverse an older one.
+
+checkout: move between branches or revert files.
+
+🌐 Remote Repositories
+How do you add a remote repository?
+git remote add origin <repo_url>
+
+How do you see remotes?
+git remote -v
+
+How do you fetch changes without merging?
+git fetch
+
+Difference between git fetch and git pull?
+
+fetch: downloads but doesn’t merge
+
+pull: fetch + merge
+
+🧠 Advanced Git Concepts
+What is the HEAD in Git?
+HEAD is a pointer to the current branch reference or latest commit.
+
+What is a detached HEAD?
+When HEAD points to a specific commit, not a branch.
+
+What is a stash in Git?
+Temporarily shelves changes not ready to commit.
+git stash, git stash apply
+
+How do you tag a commit?
+git tag v1.0
+
+How do you create an annotated tag?
+git tag -a v1.0 -m "Version 1.0"
+
+How do you delete a remote tag?
+git push --delete origin <tag_name>
+
+🧩 Conflicts and Collaboration
+What causes a merge conflict?
+When two branches have changes in the same part of a file.
+
+How do you resolve merge conflicts?
+Manually edit files, then git add and git commit
+
+How do you prevent merge conflicts?
+
+Pull before pushing
+
+Communicate with team
+
+Smaller commits
+
+How do you squash commits?
+git rebase -i HEAD~n and mark as squash
+
+Difference between origin/master and master?
+
+master: local branch
+
+origin/master: remote-tracking branch
+
+📁 Git Configuration and Hooks
+How do you configure Git globally?
+git config --global user.name "Your Name"
+git config --global user.email "you@example.com"
+
+Where is Git config stored?
+
+Local: .git/config
+
+Global: ~/.gitconfig
+
+What are Git hooks?
+Scripts that run on Git events (e.g., pre-commit, post-merge)
+
+Have you worked with Git hooks? Example?
+Yes. Used pre-commit to run lint checks before allowing commits.
+
+📊 Performance & Best Practices
+How do you reduce Git repo size?
+
+Remove large files with git filter-branch or BFG
+
+Use .gitignore wisely
+
+Best practices in Git for teams?
+
+Use feature branches
+
+Write meaningful commit messages
+
+Rebase before merge
+
+Code reviews before pull requests
+
