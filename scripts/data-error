@@ -1,2 +1,0 @@
-#!/bin/bash
-grep -i error /home/swapnil/messages

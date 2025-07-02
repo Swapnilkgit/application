@@ -1,2 +1,0 @@
-#!/bin/bash
-grep -i warn /home/swapnil/messages
