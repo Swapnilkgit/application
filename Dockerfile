@@ -2,6 +2,8 @@
 FROM registry.access.redhat.com/ubi8/ubi
 # Install Git and httpd 
 RUN dnf install -y git httpd && dnf clean all
+RUN echo "ServerName localhost" >> /etc/httpd/conf/httpd.conf
+
 # Set working directory (optional)
 WORKDIR /var/www/html
 
